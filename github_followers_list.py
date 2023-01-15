@@ -29,7 +29,7 @@ class GitHub:
         button.click()
         time.sleep(3)
     
-    def repoSearch(self,keyword):
+    def repoSearch(self,keyword):#just one page ??
         #find search bar
         searchInput=self.browser.find_element(By.NAME,"q")
         
